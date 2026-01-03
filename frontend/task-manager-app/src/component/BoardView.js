@@ -35,7 +35,7 @@ export default function BoardViewPage(){
     useEffect(()=>{
         getTasks();
     },[updateTasks]);
-    return (
+    return ( 
         <>
        <TasksContext.Provider value={setupdateTasks}>
         <div id="board_view_container">
